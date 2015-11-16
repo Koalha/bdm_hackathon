@@ -20,7 +20,7 @@ These measures have been shown to be good predictors of tree density and forest 
 An example dataset derived from one lidar file is included in `rasteritulokset/`.
 
 The areas of Central Finland for which we have data are shown in green in the next image: 
-!(Lidar-coverage in green)[/laserkattavuus.png]
+![Lidar-coverage in green](laserkattavuus.png)
 
 These "forest structure rasters" are also calculated on buildings, roads etc, clip these out before doing any analyses.
 
@@ -39,7 +39,7 @@ Notice that `NatureReservePrivate.shp` holds all nature reserves on private land
 In addition to spatial data, we also have a spreadsheet describing nature reserves from the Forest Biodiversity Programme METSO that have been marked to at least partially consist of forests with lots of deadwood (`nature_reserve/meta/runsaslahopuustoset_ysat.csv`). It would be very valuable for refining our analyses to combine the data from `NatureReservePrivate.shp` and `runsaslahopuustoset_ysat.csv`.
 
 Here is a map showing the reserves' locations in Central Finland:
-!(Nature reserves in Central Finland)[/conservation_areas.png]
+![Nature reserves in Central Finland](conservation_areas.png)
 
 ### Municipalities
 
