@@ -41,6 +41,14 @@ In addition to spatial data, we also have a spreadsheet describing nature reserv
 Here is a map showing the reserves' locations in Central Finland:
 ![Nature reserves in Central Finland](conservation_areas.png)
 
+### Forest Mask
+
+`forestmask/forestmask_centralfinland` is a vector mask layer describing the area Central Finland that is used on forestry. The field "omistajary" in its attribute table apparently tells whether a forest patch is private or public property: a value of zero when public property, 1 otherwise.
+
+### Protection Suggestion
+
+`protection_suggestion/protection_suggestion` is a digitized suggestion for a nature reserve in the Keuruu forest conflict area made by the Finnish Association for Nature Conservation bases on their field studies. The field "type" in its attribute table tells whether FANC thinks an area is very valuable conservation-wise, or whether it should be conserved as otherwise valuable old-growth forest.
+
 ### Municipalities
 
 `kuntajako/kunnat.shp` is a shapefile describing the municipalities of Central Finland.
@@ -66,5 +74,9 @@ The data and code in this repository are released under the following licences:
 Laser scanning data, map sheet divisiom and municipality border shapefiles are from the National Land Survey of Finland, and released under [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/).
 
 Nature reserve shapefiles are from the Finnish Environment Institute (SYKE), and released under [this ambiguous licence](http://metatieto.ymparisto.fi:8080/geoportal/catalog/search/resource/details.page?uuid={C305FA65-F319-4FA0-AAB8-F92AE32B6EE2}) (in Finnish). TL;DR you can share the data - but must aknowledge SYKE and mention the date the data was downloaded on. Which for these files is 9/2015.
+
+The forest mask layer is an unlicenced free file downloadable from [their site.](http://metsakeskus.fi/metsamaski)
+
+The suggestion for protected areas is digitized from a pdf from [this press release](http://www.sll.fi/ajankohtaista/tiedotteet/2015/metso-ohjelmaa-toteutetaan-tehottomasti-metsahallitus-hakkaa-metso-kelpoista-valtionmaata-nyt-keuruulla) of FANC.
 
 Other content in this repository is still unlicenced.
