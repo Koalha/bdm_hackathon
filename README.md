@@ -43,7 +43,9 @@ Here is a map showing the reserves' locations in Central Finland:
 
 ### Forest Mask
 
-`forestmask/forestmask_centralfinland` is a vector mask layer describing the area Central Finland that is used on forestry. The field "omistajary" in its attribute table apparently tells whether a forest patch is private or public property: a value of zero when public property, 1 otherwise.
+This file is to big to host on Github. It can be [downloaded from Dropbox](https://www.dropbox.com/s/37u4g3jg6frqjdn/forest_mask.zip?dl=0) instead.
+
+The `forest_mask.zip` contains a shapefile describing the area in Central Finland that is in forestry use. The field "omistajary" in its attribute table apparently tells whether a forest patch is private or public property: a value of 0 when public property, 1 otherwise.
 
 ### Protection Suggestion
 
