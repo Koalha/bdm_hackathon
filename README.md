@@ -57,7 +57,7 @@ The `forest_mask.zip` contains a shapefile describing the area in Central Finlan
 
 ### Map Sheet Division
 
-`lehtijako/utm5` is a vector file describing the UTM5 map sheet division. NLS' LiDAR data is divided into UTM5 map sheets, so this file also reveals the physical location of each LiDAR file.
+`lehtijako/utm5` is a vector file describing the UTM5 map sheet division. NLS' LiDAR data is divided into UTM5 map sheets, so this file also reveals the physical location of each LiDAR file. This file has been modified to show the year when scanning took place, with NA indicating missing data and 0 indicating a time before 2012.
 
 ### List of LiDAR Files
 
