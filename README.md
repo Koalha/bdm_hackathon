@@ -30,13 +30,12 @@ We have 4 shapefiles describing different kinds of nature reserves from Central 
 **NatureReserveOldgrowthProgrammePrivate** has conservation areas founded on privately owned lands that are part of the Programme for the Protection of Old-Growth Forests (http://www.ym.fi/en-us/Nature/Biodiversity/Nature_conservation_programmes)
 **NatureReserveOldgrowthProgrammeState** is the same as above, but on state-owned lands
 **NatureReserveOldgrowthState** has nature reserves that are classified as old-growth forests, but are not part of any conservation programme
-**NatureReservePrivate** has all privately owned conservation areas.
+**NatureReservePrivate_trimmed** has other nature reserves on private lands. This file was produced by selecting old-growth conservation areas from all privately owned nature reserves based on a spreadsheet (`nature_reserve/meta/runsaslahopuustoset_ysat.csv`) provided by the ELY Centre of Central Finland.
+**NatureReserveAll** is the former 4 shapefiles dissolved into one.
 
 The shapefiles have considerable overlap, as a piece of land can be protected on several grounds.
 
-Notice that `NatureReservePrivate.shp` holds all nature reserves on private land, not just those that have old-growth forests. This is a problem, since most of our nature reserves are in this file.
-
-In addition to spatial data, we also have a spreadsheet describing nature reserves from the Forest Biodiversity Programme METSO that have been marked to at least partially consist of forests with lots of deadwood (`nature_reserve/meta/runsaslahopuustoset_ysat.csv`). It would be very valuable for refining our analyses to combine the data from `NatureReservePrivate.shp` and `runsaslahopuustoset_ysat.csv`.
+The ELY Centre spreadsheet describes nature reserves from the Forest Biodiversity Programme METSO that have been marked to at least partially consist of forests with lots of deadwood (`nature_reserve/meta/runsaslahopuustoset_ysat.csv`).
 
 Here is a map showing the reserves' locations in Central Finland:
 ![Nature reserves in Central Finland](conservation_areas.png)
